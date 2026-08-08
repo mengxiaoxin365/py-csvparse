@@ -3,8 +3,9 @@
 ```
 csvline.py
 ```
-See the test next to the source for usage.
+
+Run the Python Csvparse test next to the implementation for concrete examples.
 
 Parse a CSV line honoring quotes and escapes — dependency-free.
 
-No dependencies, no service to run — just the standard library.
+Python Csvparse uses only the python standard library; there is no service or dependency to install.

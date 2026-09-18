@@ -3,9 +3,8 @@
 ```
 csvline.py
 ```
+When you parse raw protocol payloads for delivery logs, a single unescaped quote can break the whole pipeline. Check the Python Csvparse test suite next to the implementation to see how it handles these boundary conditions.
 
-Run the Python Csvparse test next to the implementation for concrete examples.
+It parses a single CSV line while correctly honoring nested quotes and escape characters. You get this strictly dependency-free.
 
-Parse a CSV line honoring quotes and escapes — dependency-free.
-
-Python Csvparse uses only the python standard library; there is no service or dependency to install.
+The Python Csvparse module relies entirely on the standard library. You will not need to install any external services or third-party packages.
